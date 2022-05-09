@@ -25,7 +25,7 @@ def main():
         result = population.get_result()
 
         print(
-            f"Generation: {generation}\tResult:{result}\tFitness:{population.get_fittest()}")
+            f"Generation: {generation}\t\tResult: {result}\tFitness: {population.get_fittest()}")
 
         generation += 1
 
